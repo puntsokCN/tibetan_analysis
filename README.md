@@ -2,7 +2,7 @@
 藏文词、句的相关的识别功能及其正字规范下的合法性判断功能
 ### 一、下载方式
 
-* pypi ：  如果需要直接使用可从pypi下载   pip install  
+* pypi ：  如果需要直接使用可从pypi下载   pip install tibetan-analysis
 * github：如果需要修改源码可从 [github](https://github.com/puntsokCN/tibetan_analysis) 下载
 
 ### 二、文件结构
