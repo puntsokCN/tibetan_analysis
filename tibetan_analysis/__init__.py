@@ -3,7 +3,7 @@
 
 
 
-from tibetan_analysis.analysis import *
+from . import analysis
 
 
 
