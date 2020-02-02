@@ -44,7 +44,8 @@
 ### 五、使用示例   (.py文件)
 
 ```python
-import tibetan_analysis as ta
+import tibetan_anlysis.tibetan_analysis.analysis as ta  
+# 第一次上传pypi 导包写的有点繁琐，模块名tibetan_analysis 包名：tibetan_analysis py文件：analysis.py 
 
 ######### 1.单词分析功能
 # 从模块包的word文件中实例化 Word 类，藏文以参数形式传入
@@ -76,6 +77,7 @@ aux_word = ta.Auxiliary_Word(ss)
 
 # 输出设计为 sentence：排除干扰项的子串里标出可疑项的序号   advice：对应序号的合法性助词的建议
 print("\n\n", aux_word.analysis())
+​
 
 ```
 
